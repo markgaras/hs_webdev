@@ -1,0 +1,75 @@
+body {
+width: 1410px;
+background-color: black; }
+
+#titlehd {
+text-transform: uppercase;
+font-size: 48px;
+color: blue;
+text-align: center;
+font-family: Verdana;
+text-shadow: 1px 1px 1px white;
+text-decoration: underline; }
+
+#titlehd:active {
+color: red; }
+
+h2 {
+font-size: 36px;
+letter-spacing: 2px;
+word-spacing: 2px; }
+
+#hd2uno {
+color: #9C7E75; }
+#priceuno {
+color: white; }
+#priceuno:hover {
+color: #9C7E75; }
+
+#hd2dos {
+color: #792915; }
+#pricedos {
+color: white; }
+#pricedos:hover {
+color: #792915; }
+
+#hd2tres {
+color: #8B1E0F; }
+#pricetres {
+color: white; }
+#pricetres:hover {
+color: #8B1E0F; }
+
+#hd2quatro {
+color: #9D6D3B; }
+#pricequatro {
+color: white; }
+#pricequatro:hover {
+color: #9D6D3B; }
+
+#hd2cinco {
+color: #C78C77; }
+#pricecinco {
+color: white; }
+#pricecinco:hover {
+color: #C78C77; }
+
+/* ^ Used a palette generator website for these colors. */
+
+p {
+color: white;
+font-size: 20px;
+font-family: Arial; }
+
+.this {
+float: right;
+width: 900px;
+text-align: center; }
+
+.that {
+clear: right;
+width: 900px;
+text-align: center; }
+
+.all {
+height: 400px; }

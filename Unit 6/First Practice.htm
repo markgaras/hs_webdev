@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+<head>
+<title>First Form</title>
+<meta name="author" content="Garas" />
+<meta name="keywords" content="Form, Fields" />
+</head>
+
+
+<body>
+<h3>First Form</h3>
+<br /><br />
+
+<form name="Practice Form" action="First Practice.htm" method="POST">
+
+First name:<input type="text" name="First Name" size="30" maxlength="30" placeholder="Kenneth Smith" />
+<br />
+
+Password:
+<input type="password" name="Password" maxlength="6" />
+<br /><br />
+
+Favorite Color:<br />
+<input type="radio" name="Color" value="Blue" checked />Blue<br />
+<input type="radio" name="Color" value="Red" />Red<br />
+<input type="radio" name="Color" value="Green" />Green<br />
+<br /><br />
+
+Which of these are your favorite colors?<br />
+<input type="checkbox" name="Color2" value="Yellow" />Yellow<br />
+<input type="checkbox" name="Color2" value="Orange" checked />Orange<br />
+<input type="checkbox" name="Color2" value="Black" />Black<br />
+<input type="checkbox" name="Color2" value="Purple" />Purple<br />
+<br /><br />
+
+Favorite Number:
+<select name="Favorite Number" size="4" multiple>
+   <option value="1">1</option>
+   <option value="2">2</option>
+   <option value="3">3</option>
+   <option value="100">100</option>
+   <option value="infinity" selected>infinity</option>
+</select>
+<br /><br />
+
+Comments:
+<textarea name="Comment" maxlength="500" rows="6" cols="50">
+</textarea>
+<br /><br />
+
+<a href="http://www.google.com"><button type="button" name="Button" value="Value">
+Do not click this button
+</button></a>
+
+<input type="submit" name="Submit" value="Submit" />
+
+<input type="reset" name="Reset" value="Clear" />
+<br />
+
+</form>
+</body>
+
+
+</html>

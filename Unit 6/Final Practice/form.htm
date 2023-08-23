@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+<head>
+<title>Order Form</title>
+<meta name="author" content="Garas" />
+<meta name="keywords" content="Form, Unit 6, Hatz" />
+</head>
+
+
+</body>
+
+<form name="Order Form" action="thankyou.htm" method="POST">
+
+<table height="540px" width="600px" border="1" align="center">
+	<tr height="40px">
+		<td width="100px">First Name:</td>
+		<td colspan="2"><input type="text" name="First Name" placeholder="Kenneth" maxlength="20" rows="1" /></td>
+		<td width="100px">Last Name:</td>
+		<td colspan="2"><input type="text"  name="Last Name" placeholder="Bone" maxlength="20" rows="1" /></td>
+	</tr>
+	<tr height="40px">
+		<td>Street Address:</td>
+		<td colspan="5"><input type="text" name="Street Address" placeholder="5th Avenue" maxlength="50" rows="3" /></td>
+	</tr>
+	<tr height="40px">
+		<td>State:</td>
+		<td width="100px"><input type="text" name="State" placeholder="New York" maxlength="20" rows="1" /></td>
+		<td width="100px">City:</td>
+		<td><input type="text" name="City" placeholder="New York City" maxlength="20" rows="1" /></td>
+		<td width="100px">ZIP Code:</td>
+		<td width="100px"><input type="text" name="ZIP Code" placeholder="10001" maxlength="20" rows="1" /></td>
+	</tr>
+	<tr height="40px">
+		<td colspan="6"></td>
+	</tr>
+	<tr height="40px">
+		<td colspan="2">Payment:</td>
+		<td colspan="2">Shipping:</td>
+		<td colspan="2">Discounts:</td>
+	</tr>
+	<tr height="40px">
+		<td><input type="radio" name="Payment" value="Visa" /></td>
+		<td>Visa</td>
+		<td><input type="radio" name="Shipping" value="Standard" /></td>
+		<td>Standard ($3.99)</td>
+		<td><input type="checkbox" name="Discounts" value="AARP" /></td>
+		<td>AARP</td>
+	</tr>
+	<tr height="40px">
+		<td><input type="radio" name="Payments" value="MasterCard" /></td>
+		<td>MasterCard</td>
+		<td><input type="radio" name="Shipping" value="Priority" /></td>
+		<td>Priority ($7.99)</td>
+		<td><input type="checkbox" name="Discounts" value="AAA" /></td>
+		<td>AAA</td>
+	</tr>
+	<tr height="40px">
+		<td><input type="radio" name="Payments" value="Paypal" /></td>
+		<td>PayPal</td>
+		<td><input type="radio" name="Shipping" value="Overnight" /></td>
+		<td>Overnight ($100)</td>
+		<td><input type="checkbox" name="Discounts" value="Hatz Member" /></td>
+		<td>Hatz Member</td>
+	</tr>
+	<tr height="40px">
+		<td colspan="6"></td>
+	</tr>
+	<tr height="40px">
+		<td>Quantity:</td>
+		<td><select name="Quantity" size="1"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select></td>
+		<td>Color:</td>
+		<td><select name="Color" size="1"><option value="purple">Purple</option><option value="blue">Blue</option><option value="green">Green</option><option value="yellow">Yellow</option><option value="orange">Orange</option><option value="red">Red</option></select></td>
+		<td>Size:</td>
+		<td><select name="Size" size="1"><option value="xlarge">X-Large</option><option value="large">Large</option><option value="medium">Medium</option><option value="small">Small</option><option value="xsmall">X-Small</option></select></td>
+	</tr>
+	<tr height="100px">
+		<td>Comments:</td>
+		<td colspan="5"><textarea name="Comments" maxlength="50" rows="5" placeholder="What did you think about our service?"></textarea></td>
+	</tr>
+	<tr height="40px">
+		<td></td>
+		<td></td>
+		<td colspan="2"><input type="submit" name="Submit" value="Submit" /><input type="reset" name="Reset" value="Reset"><a href="http://www.villagehatshop.com/"><button type="button" name="Shop" value="Shop">Shop</button></a></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
+
+</form>
+
+</body>
+
+
+</html>

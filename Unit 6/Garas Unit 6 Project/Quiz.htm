@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+<head>
+<title>Pokemon</title>
+<meta name="author" content="Garas" />
+<meta name="keywords" content="Pokemon Quiz" />
+</head>
+
+
+<body style="background-color: black; color: #ADD8E6;">
+<form name="Pokemon Quiz" action="thankyou.htm" method="POST">
+<h1>Pokemon Quiz</h1>
+<hr />
+<h3>Your Info</h3>
+First Name:<input type="text" name="First Name" placeholder="Kenneth" maxlength="20" rows="1" /><br />
+Last Name:<input type="text"  name="Last Name" placeholder="Bone" maxlength="20" rows="1" /><br />
+Age:<select name="Quantity" size="1"><option value="0-10">0-10</option><option value="11-20">11-20</option><option value="21-30">21-30</option><option value="31-40">31-40</option><option value="41 or above">41 or above</option></select><br />
+Gender:<select name="Quantity" size="1"><option value="Male">Male</option><option value="Female">Female</option><option value="Other">Other</option></select><br />
+<h3>True or False Questions</h3>
+Normal Charizard is a dragon-type. True:<input type="radio" name="Charizard" value="True" />  False:<input type="radio" name="Charizard" value="False" /> <a href="hint1.htm" target="_blank"><button type="button" name="Hint1" value="Hint1">Click Here For A Hint</button></a><br />
+Pikachu is the first Pokemon that Ash caught with a Pokeball. True:<input type="radio" name="Pikachu" value="True" />  False:<input type="radio" name="Pikachu" value="False" /><br />
+Brock is a water-type user. True:<input type="radio" name="Brock" value="True" />  False:<input type="radio" name="Brock" value="False" /><a href="hint2.htm" target="_blank"><button type="button" name="Hint2" value="Hint2">Click Here For A Hint</button></a><br /><br />
+Ash was a champion in Kanto. True:<input type="radio" name="Ash" value="True" />  False:<input type="radio" name="Ash" value="False" /><br />
+<h3>Multiple Choice Questions</h3>
+<img src="http://cdn.bulbagarden.net/upload/thumb/3/38/Diamond_Pearl_Cynthia.png/170px-Diamond_Pearl_Cynthia.png" width="170px" height="348px" alt="A Pokemon Trainer" /><br />
+Who is the person above? Misty<input type="radio" name="MQ1" value="Misty" /> Cynthia<input type="radio" name="MQ1" value="Cynthia" /> Dawn<input type="radio" name="MQ1" value="Dawn" /> May<input type="radio" name="MQ1" value="May" /><a href="hint3.htm" target="_blank"><button type="button" name="Hint3" value="Hint3">Click Here For A Hint</button></a><br /><br />
+<img src="http://cdn.bulbagarden.net/upload/thumb/f/f3/Rayquaza_Brawl.png/200px-Rayquaza_Brawl.png" width="200px" height="342px" alt="A Pokemon" /><br />
+Who is the Pokemon above? Kyogre<input type="radio" name="MQ2" value="Kyogre" /> Groudon<input type="radio" name="MQ2" value="Groudon" /> Absol<input type="radio" name="MQ2" value="Absol" /> Rayquaza<input type="radio" name="MQ2" value="Rayquaza" /><br />
+<h3>Short Answer Questions</h3>
+Who is your favorite Pokemon trainer and why?<br />
+<textarea name="Trainer" maxlength="50" rows="5"></textarea><br />
+What is your favorite Pokemon and why?<br />
+<textarea name="Pokemon" maxlength="50" rows="5"></textarea><br />
+<h3>Checkbox Questions</h3>
+Which Pokemon regions did you visit?<br />
+Kanto<input type="checkbox" name="Regions" value="Kanto" /> Johto<input type="checkbox" name="Regions" value="Johto" /> Hoenn<input type="checkbox" name="Regions" value="Hoenn" /> Sinnoh<input type="checkbox" name="Regions" value="Sinnoh" /> Unova<input type="checkbox" name="Regions" value="Unova" /> Kalos<input type="checkbox" name="Regions" value="Kalos" /><br /><br />
+Which Pokemon starter types have you chosen?<br />
+Grass<input type="checkbox" name="Type" value="Grass" /> Fire<input type="checkbox" name="Type" value="Fire" /> Water<input type="checkbox" name="Type" value="Water" /><br /><br />
+<input type="submit" name="Submit" value="Submit" /><input type="reset" name="Reset" value="Reset">
+</form>
+</body>
+
+
+</html>

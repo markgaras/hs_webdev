@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Get to know ya form</title>
+<meta name="keywords" content="form, get to know ya, basic form" />
+<meta name="author" content="Garas" />
+<meta name="description" content="This is a form that will be used to get info about 
+students" />
+</head>
+
+<body style="font-family: helvetica; color: darkcyan; background-color: mistyrose;">
+
+<h1 style="text-align: center;">Get to know ya form</h1>
+
+<form name="GTKY" action="thanks.htm" method="post">
+<table frame="void" rules="none" width="530" border="1" bordercolor="darkcyan" align="center">
+	<tr height="50">
+		<td width="100" align="right">
+		First Name:
+		</td>
+		<td colspan="2" width="150">
+ <input type="text" name="First Name" placeholder="Benjamin" maxlength="20" rows="1" /
+		</td>
+		<td width="30">
+		</td>
+		<td width="100" align="right">
+		Last Name: 
+		</td>
+		<td colspan="2" width="150">
+		<input type="text"  name="Last Name" placeholder="Doverson" maxlength="20" 
+		rows="1" />
+		</td>
+	</tr>
+	<tr height="50">
+		<td width="100" align="right">
+		Age:
+		</td>
+		<td colspan="2" width="150">
+<select name="Age" size="1"><option value="1"><18</option><option value="2">18-30</option>
+<option value="3">31-40</option><option value="4">41-50</option><option value="5">51-63
+</option><option value="6">>63</option></select>
+		</td>
+		<td width="30">
+		</td>
+		<td width="100" align="right">
+		Gender:
+		</td>
+		<td width="150" colspan="2">
+<select name="Gender" size="1"><option value="1">Male</option><option value="2">Female</option>
+<option value="3">Other</option><option value="4">Special Snowflake</option</select>
+		</td>
+	</tr>
+	<tr height="120" valign="top" >
+		<td width="100" align="right">
+		Sports you play:
+		</td>
+		<td width="40" align="right">
+
+		</td>
+		<td width="110">
+		Football<input type="checkbox" name="Sports" value="Football" checked="checked"/><br />
+		Baseball<input type="checkbox" name="Sports" value="Baseball"/><br />
+		Hockey<input type="checkbox" name="Sports" value="Hockey"/><br />
+		Soccer<input type="checkbox" name="Sports" value="Soccer" checked="checked"/><br />
+		</td>
+		<td width="30" align="right">
+
+		</td>
+		<td width="100">
+		Lacrosse<input type="checkbox" name="Sports" value="Lacrosse"/><br />
+		Basketball<input type="checkbox" name="Sports" value="Basketball"/><br />
+		Volleyball<input type="checkbox" name="Sports" value="Volleyball"/><br />
+		Dance<input type="checkbox" name="Sports" value="Dance"/><br />
+		</td>
+		<td width="40" align="right">
+
+		</td>
+		<td width="110">
+		Softball<input type="checkbox" name="Sports" value="Softball"/><br />
+		Tennis<input type="checkbox" name="Sports" value="Tennis"/><br />
+		Cheerleading<input type="checkbox" name="Sports" value="Cheerleading"/><br />
+		Wrestling<input type="checkbox" name="Sports" value="Wrestling"/><br />
+		</td>
+	</tr>
+	<tr height="120" valign="top" >
+		<td width="100" align="right">
+		Favorite Subject:
+		</td>
+		<td width="40" align="right">
+
+		</td>
+		<td width="110">
+		Algebra II<input type="radio" name="Class" value="Alg 1" checked="checked"/><br /><br />
+		Geometry<input type="radio" name="Class" value="Geo" /><br /><br />
+		Statistics<input type="radio" name="Class" value="Stats" />
+		</td>
+		<td width="30" align="right">
+
+		</td>
+		<td width="100">
+		English I<input type="radio" name="Class" value="Eng 1" /><br /><br />
+		English II<input type="radio" name="Class" value="Eng 2" /><br /><br />
+		English III<input type="radio" name="Class" value="Eng 3" />
+		</td>
+		<td width="40" align="right">
+
+		</td>
+		<td width="110">
+		Earth Science<input type="radio" name="Class" value="Earth S." /><br /><br />
+		Chemistry<input type="radio" name="Class" value="Chem" /><br /><br />
+		Biology<input type="radio" name="Class" value="Bio" />
+		</td>
+	</tr>
+	<tr height="100" valign="top">
+		<td width="100" align="right">
+		Favorite Teacher and Why:
+		</td>
+		<td colspan="6" width="430">
+<textarea name="Favorite Teacher" width="200px" maxlength="50" rows="6" placeholder="Who is it?"></textarea>
+		</td>
+	</tr>
+	<tr height="50">
+		<td width="280" colspan="4" align="right">
+<input type="submit" name="Submit" value="Submit" />
+		</td>
+		<td colspan="3" width="250">
+<input type="reset" name="Reset" value="Reset">
+		</td>
+	</tr>
+</table>
+</form>
+</body>
+
+</html>
